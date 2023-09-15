@@ -1,0 +1,53 @@
+
+body, h1, ol {
+    margin: 5px;
+    padding: 10px;
+}
+
+
+body {
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif; 
+    color: #333;
+}
+
+
+h1 {
+    text-align: center;
+    background-color: #007acc; 
+    color: #fff;
+    padding: 20px;
+}
+
+
+#data-container {
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 20px;
+    line-height: 26pt;
+    display: block;
+}
+
+
+#artist-list {
+    list-style: none;
+    margin: 20px auto; 
+    max-width: 400px; 
+}
+
+
+#artist-list li {
+    padding: 10px;
+    border: 1px solid #ccc; 
+    margin-bottom: 10px; 
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+
+#artist-list li:hover {
+    background-color: #f0f0f0; 
+    
+}
