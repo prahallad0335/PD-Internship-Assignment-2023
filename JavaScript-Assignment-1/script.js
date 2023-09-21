@@ -55,7 +55,7 @@ async function fetchArtistData(artistId, accessToken) {
 }
 // Render artists on the webpage
 const renderArtists = (artists) => {
-    const artistList = document.getElementById('artist-list');
+    const dataContainer = document.getElementById('data-container');
     artists.forEach((artist) => {
         const artistCard = document.createElement('div');
         artistCard.classList.add('artist-card');
@@ -75,7 +75,7 @@ const renderArtists = (artists) => {
         artistCard.appendChild(artistImage);
         artistCard.appendChild(artistName);
         artistCard.appendChild(listItem);
-        artistList.appendChild(artistCard);
+        dataContainer.appendChild(artistCard);
     });
 };
 
