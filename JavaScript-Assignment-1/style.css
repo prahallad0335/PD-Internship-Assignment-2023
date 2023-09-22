@@ -1,80 +1,66 @@
+/* Style for the heading */
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-style: oblique;
+  margin: 20px 0;
+  color: #fcfcfc;
+  background-color: gray;
+}
 
-body, h1, ol {
-    margin: 0;
-    padding: 0;
-  }
+/* Style for the container holding artist cards */
+#data-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fcfafa;
+}
 
-  body {
-    background-color: #52f7325d;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  
-  h1 {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
- 
-  #data-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  
+/* Style for each artist card */
+.artist-card {
+  background-color: #278afc;
+  border: 1px solid #faf7af;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-  .artist {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 20px;
-    max-width: 300px;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  
-  .artist h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 10px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
-  
- 
-  .artist img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    align-items: center;
-    justify-content: center;
-  }
-  
+/* Style for artist name */
+.artist-card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
 
-  #artist-list li {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 5px;
-  }
-  
+/* Style for artist image */
+.artist-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin: 10px 0;
+}
 
-  #artist-list li + li {
-    margin-top: 10px;
-  }
-  
-  .artist-card{
-    padding: 10px;
-    
-  }
+/* Style for artist popularity and followers information */
+.artist-card p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Style for the entire page (optional) */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fcfcfc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
 
   .artist-card img:hover{
     transform: translateY(-10px);
