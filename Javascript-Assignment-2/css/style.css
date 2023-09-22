@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: red;
+    background-image: url(https://wallpaperaccess.com/full/1540034.jpg);
+    background-size: cover;
+    
+}
+
+
+h3{
+    color: yellow;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.weather-widget {
+    width: 300px;
+    min-width: 270px;
+    max-height: 380px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: left;
+    position:relative;
+    margin-left: 1150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg);
+}
+
+input[type="text"], button {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: white;
+    text-align: center;
+}
+
+.weather-info {
+    display: none;
+    margin-top: 20px;
+    color: white;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+button{
+    background-color: blanchedalmond;
+}
+button:hover{
+transform: translateY(-3px);
+background-color: aquamarine;
+}
+.hidden{
+    display: none;
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .weather-widget {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
