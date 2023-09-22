@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Widget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-widget">
+        <h3>Weather Forecast</h3>
+        <input type="text" id="location" placeholder="Enter Location" spellcheck="false"><br>
+        <button id="get-forecast">Get Forecast</button>
+        <div class="weather-info">
+            <h2>Location: <span id="location-name"></span></h2>
+            <h2>Temperature: <span id="temperature"></span></h2>
+            <img id="weather-icon" src="" alt="Weather Icon">
+        </div>
+        <p id="error-message" class="hidden">Weather Information not available</p>
+    </div>
+    <!-- <p id="error-message" class="hidden">Weather Information not available</p> -->
+    <script src="script.js"></script>
+</body>
+</html>
